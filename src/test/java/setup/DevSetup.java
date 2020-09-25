@@ -11,7 +11,7 @@ public class DevSetup {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("http://demo.guru99.com/V4/");
+		driver.get("https://cdcteam12hcm-dev.azurewebsites.net/");
 	}
 
     public void tearDown(){

@@ -11,7 +11,7 @@ import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-		features = {"src/test/resources/feature/OpenWeb.feature"},
+		features = {"src/test/resources/feature/Logout.feature"},
 //				features = {"src/test/resources/feature/Login.feature"},
 //		tags = {"@tag1"},
 		glue = {"stepDef"},
