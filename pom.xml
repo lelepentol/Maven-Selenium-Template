@@ -6,10 +6,8 @@
 	<artifactId>appiumtest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<description>sample</description>
-	<build>
+	<!--<build>
 		<plugins>
-
-
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
@@ -35,15 +33,12 @@
 					</execution>
 				</executions>
 				<configuration>
-
 					<sourceJsonReportDirectory>${project.build.directory}/cucumber-reports/report.json</sourceJsonReportDirectory>
-					<!--<sourceJsonReportDirectory>${project.build.directory}/cucumber-reports/ChangePassword.json</sourceJsonReportDirectory> -->
-					<!-- <sourceJsonReportDirectory>${project.build.directory}/cucumber-reports/OTP.json</sourceJsonReportDirectory> -->
 					<generatedHtmlReportDirectory>${project.build.directory}/generated-report</generatedHtmlReportDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>-->
 	<dependencies>
 
 		<dependency>

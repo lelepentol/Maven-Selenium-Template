@@ -33,6 +33,7 @@ public class RunnerTest {
 	public void scenario(PickleWrapper pickle, FeatureWrapper cucumberFeature) throws Throwable {
 		testNGCucumberRunner.runScenario(pickle.getPickle());
 	}
+	
 	@DataProvider
 	public Object[][] scenarios() {
 		return testNGCucumberRunner.provideScenarios();
